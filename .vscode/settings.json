@@ -1,0 +1,22 @@
+{
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "files.exclude": {
+        "**/_minted-*": true,
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.lof": true,
+        "**/*.log": true,
+        "**/*.lol": true,
+        "**/*.lot": true,
+        "**/*.nav": true,
+        "**/*.out": true,
+        "**/*.snm": true,
+        "**/*.swp": true,
+        "**/*.toc": true,
+        "**/*.vrb": true,
+        "**/*.bcf": true,
+        "**/*.gz": true,
+        "**/*.xml": true
+    }
+}

@@ -1,0 +1,24 @@
+\documentclass{article} %best suited for science related fields https://tex.stackexchange.com/questions/782/what-are-the-available-documentclass-types-and-their-uses
+
+\setcounter{secnumdepth}{0} %Disables automatic numbering of sections
+%https://tex.stackexchange.com/questions/11668/adding-unnumbered-sections-to-toc
+
+
+\input{resources/packages/commonPack}
+\input{resources/packages/fontPack}
+\input{resources/packages/mathPack}
+
+\addbibresource{src/sections/bibliography.bib}
+
+\begin{document}
+
+
+\include{src/sections/titlepage}
+\include{src/sections/tableOfContents}
+\include{src/sections/section1}
+\include{src/sections/section2}
+
+\printbibliography
+
+
+\end{document}
